@@ -1,0 +1,31 @@
+@import "../../styles/variables.scss";
+
+.card {
+  cursor: pointer;
+  &__image {
+    &-cover {
+      max-width: 500px;
+      margin: 0px 0px 5px 0px;
+    }
+  }
+  img {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  h3 {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 10px 0px;
+  }
+  &-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    span {
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+  }
+}
