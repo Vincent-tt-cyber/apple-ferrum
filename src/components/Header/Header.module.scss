@@ -1,0 +1,28 @@
+@import "../../styles/variables";
+
+.header {
+  padding: 20px 0;
+  &-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    text-align: center;
+    &-text {
+      font-size: 40px;
+    }
+    &-text span {
+      color: $primary;
+    }
+    // &-description {
+    //     // font-size: 15px;
+    // }
+    &-description span {
+      color: $primary;
+    }
+  }
+  &__link {
+    margin: 0px 5px 0px 5px;
+  }
+}

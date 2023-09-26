@@ -1,0 +1,19 @@
+@import "../../styles/variables.scss";
+
+.not-found-page {
+  text-align: center;
+  h1 {
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+  }
+}
+
+.back {
+  background-color: $primary;
+  color: #000;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 500;
+  
+}
