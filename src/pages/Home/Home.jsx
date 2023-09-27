@@ -10,9 +10,9 @@ const Home = () => {
     setSelectCategory(category);
   };
 
-  useEffect(() => {
-    console.log(selectCategory);
-  }, [selectCategory]);
+  // useEffect(() => {
+  //   console.log(selectCategory);
+  // }, [selectCategory]);
   return (
     <>
       <section className={styles["home"]}>

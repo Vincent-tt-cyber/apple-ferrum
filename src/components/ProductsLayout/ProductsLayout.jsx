@@ -9,7 +9,7 @@ export const ProductsLayout = ({ selectCategory }) => {
       <div className={styles["layout"]}>
         {products.map((product) =>
           product.category == selectCategory ? (
-            <ProductCard product={product} />
+            <ProductCard key={product.id} product={product} />
           ) : null
         )}
       </div>

@@ -1,0 +1,11 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  padding: 20px 0px;
+  p {
+    text-align: center;
+    span {
+      color: $primary;
+    }
+  }
+}

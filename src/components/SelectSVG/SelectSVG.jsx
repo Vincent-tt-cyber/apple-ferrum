@@ -6,6 +6,7 @@ import { BiSolidShoppingBags } from "react-icons/bi";
 import { BsSmartwatch } from "react-icons/bs";
 
 const SelectSVG = ({ id }) => {
+
   switch (id) {
     case "favourite":
       return <AiOutlineHeart size={25} />;
